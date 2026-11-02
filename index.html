@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Abhey Kumar | MERN Stack Developer & Full-Stack Engineer</title>
+    <meta name="title" content="Abhey Kumar | MERN Stack Developer & Full-Stack Engineer" />
+    <meta name="description" content="Portfolio of Abhey Kumar, a results-driven MERN Stack Developer specializing in high-performance React web apps, scalable Node.js/Express APIs, MongoDB, and modern SaaS architectures." />
+    <meta name="keywords" content="Abhey Kumar, MERN Stack Developer, React Developer, Node.js Developer, Express.js, MongoDB, Full Stack Engineer, Web Developer Portfolio, JavaScript Developer, India" />
+    <meta name="author" content="Abhey Kumar" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#080c14" />
+    <link rel="canonical" href="https://abhey-kumar.dev" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://abhey-kumar.dev" />
+    <meta property="og:title" content="Abhey Kumar | MERN Stack Developer" />
+    <meta property="og:description" content="Building scalable, high-performance web products with React, Node.js, Express, and MongoDB." />
+    <meta property="og:image" content="/images/profile.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://abhey-kumar.dev" />
+    <meta property="twitter:title" content="Abhey Kumar | MERN Stack Developer" />
+    <meta property="twitter:description" content="Building scalable, high-performance web products with React, Node.js, Express, and MongoDB." />
+    <meta property="twitter:image" content="/images/profile.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+
+    <!-- Preconnect & Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Prevent Theme Flash -->
+    <script>
+      (function() {
+        try {
+          const savedTheme = localStorage.getItem('portfolio-theme');
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (savedTheme === 'dark' || (!savedTheme && prefersDark) || !savedTheme) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- JSON-LD Structured Data Schema for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Abhey Kumar",
+      "jobTitle": "MERN Stack Developer",
+      "url": "https://abhey-kumar.dev",
+      "email": "unicorn.juz4u@gmail.com",
+      "telephone": "+918860105247",
+      "sameAs": [
+        "https://github.com/abhey-kumar",
+        "https://linkedin.com/in/abhey-kumar"
+      ],
+      "knowsAbout": [
+        "JavaScript",
+        "React",
+        "Redux Toolkit",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "REST APIs",
+        "Tailwind CSS",
+        "Full Stack Development"
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-dark-bg dark:text-slate-100 transition-colors duration-300 font-sans selection:bg-accent-violet selection:text-white overflow-x-hidden min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
